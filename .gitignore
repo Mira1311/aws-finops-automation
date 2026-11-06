@@ -1,0 +1,11 @@
+# Virtual Environment
+venv/
+__pycache__/
+
+# Secrets & Environment Variables (CRITICAL)
+.env
+*.pem
+*.key
+aws_credentials.json
+# Local practice & scratchpad (Do not upload)
+playground/

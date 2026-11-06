@@ -1,0 +1,3 @@
+[2026-11-06 19:32:01] - [INFO] - Found credentials in shared credentials file: ~/.aws/credentials
+[2026-11-06 19:32:02] - [WARNING] - WARNING: instance: i-0e01a67ad87b5bf44 don't have owner tag
+[2026-11-06 19:32:02] - [WARNING] - WARNING: instance: i-0b33c6348b39ce52c don't have owner tag
