@@ -9,10 +9,11 @@ logging.basicConfig(
     format='[%(asctime)s] - [%(levelname)s] - %(message)s',
     datefmt='%Y-%m-%d %H:%M:%S' 
 )
-current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S' )
 
-def auto_tagging_on_instances(instance_id):
-    ec2: EC2Client = boto3.client('ec2', region_name='ap-southeast-1')
+def auto_tagging_on_instances(instance_id, region_name='ap-southeast-1'):
+    ec2: EC2Client = boto3.client('ec2', region_name=region_name)
+    current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S' )
+
 
     try:
         ec2.start_instances(InstanceIds=[instance_id])

@@ -1,6 +1,0 @@
-[2026-11-07 04:17:00] - [INFO] - Found credentials in shared credentials file: ~/.aws/credentials
-[2026-11-07 04:17:02] - [INFO] - Successfully stopped and tagged into this i-0e01a67ad87b5bf44.
-[2026-11-07 04:17:02] - [ERROR] - Error came from AWS API: Invalid parameter: Topic Name
-[2026-11-07 04:17:02] - [ERROR] - None
-[2026-11-07 04:19:20] - [INFO] - Found credentials in shared credentials file: ~/.aws/credentials
-[2026-11-07 04:19:22] - [INFO] - Successfully stopped and tagged into this i-0e01a67ad87b5bf44.

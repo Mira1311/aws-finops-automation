@@ -10,12 +10,12 @@ logging.basicConfig(
     format='[%(asctime)s] - [%(levelname)s] - %(message)s',
     datefmt='%Y-%m-%d %H:%M:%S' 
 )
-def manage_ec2_instances(instance_ids):
+def manage_ec2_instances(instance_ids, region_name ='ap_southeast-1'):
     #Initiate EC2 instance
-    ec2: EC2Client = boto3.client('ec2', region_name='ap-southeast-1')
+    ec2: EC2Client = boto3.client('ec2', region_name=region_name)
 
     try:
-        logging.info("sending stop signal to instance: {instance_ids}")
+        logging.info(f"sending stop signal to instance: {instance_ids}")
         ec2.stop_instances(InstanceIds=instance_ids)
         print("Successfully!")
 
@@ -32,4 +32,4 @@ def manage_ec2_instances(instance_ids):
         logging.error(f"System error or connection: {e}")
 
 if __name__ == "__main__":
-    manage_ec2_instances(['i-0e01a67ad87b5bf44zz'])
+    manage_ec2_instances(['i-051ecf9e1058c4295'])

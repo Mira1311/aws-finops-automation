@@ -1,4 +1,0 @@
-[2026-11-07 00:23:20] - [INFO] - Found credentials in shared credentials file: ~/.aws/credentials
-[2026-11-07 00:23:21] - [INFO] - Successfully! You have enough IAM permission to stop that instances: i-0e01a67ad87b5bf44
-[2026-11-07 01:56:19] - [INFO] - Found credentials in shared credentials file: ~/.aws/credentials
-[2026-11-07 01:56:19] - [INFO] - Successfully! You have enough IAM permission to stop that instances: i-0e01a67ad87b5bf44
