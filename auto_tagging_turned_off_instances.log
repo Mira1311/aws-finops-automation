@@ -1,0 +1,13 @@
+[2026-11-09 11:27:16] - [INFO] - Initializing FinOps Bot. Action: scan-inventory | Region: ap-southeast-1
+[2026-11-09 11:27:16] - [INFO] - Connecting to AWS (Region: ap-southeast-1) to scan EC2 instances...
+[2026-11-09 11:27:16] - [INFO] - Found credentials in environment variables.
+[2026-11-09 11:27:17] - [ERROR] - AWS API Error: AWS was not able to validate the provided access credentials
+[2026-11-09 11:53:10] - [INFO] - Initializing FinOps Bot. Action: scan-inventory | Region: ap-southeast-1
+[2026-11-09 11:53:10] - [INFO] - Connecting to AWS (Region: ap-southeast-1) to scan EC2 instances...
+[2026-11-09 11:53:10] - [INFO] - Found credentials in environment variables.
+[2026-11-09 11:53:11] - [INFO] - Found EC2! | ID: i-0e01a67ad87b5bf44 | State: STOPPED | IPv4: No public ip
+[2026-11-09 11:53:11] - [INFO] - Found EC2! | ID: i-0b33c6348b39ce52c | State: STOPPED | IPv4: No public ip
+[2026-11-09 11:53:11] - [INFO] - Found EC2! | ID: i-051ecf9e1058c4295 | State: STOPPED | IPv4: No public ip
+[2026-11-09 11:53:11] - [INFO] - Found EC2! | ID: i-0c822e1e17e9ddd7b | State: STOPPED | IPv4: No public ip
+[2026-11-09 11:53:11] - [INFO] - Found EC2! | ID: i-05d2b88fc94e131d8 | State: STOPPED | IPv4: No public ip
+[2026-11-09 11:53:11] - [INFO] - Total EC2 Instances calculated: 5

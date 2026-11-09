@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  finops-bot:
+    build: .
+    image: finops-bot:v2-multistage
+    env_file:
+      - .env
+    volumes:
+      - ./:/app/ # Cắm ống hút xuất file log ra ngoài thư mục hiện tại

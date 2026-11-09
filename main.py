@@ -3,21 +3,21 @@ import logging
 import sys
 
 #1. Auditing Module Imports
-from auditing import auto_tagging_off_instance
-from auditing import auto_tagging_on_and_remove_old_tag_instance
-from auditing import ec2_scanner
-from auditing import tag_auditor
+from src.auditing import auto_tagging_off_instance
+from src.auditing import auto_tagging_on_and_remove_old_tag_instance
+from src.auditing import ec2_scanner
+from src.auditing import tag_auditor
 #2. Finops mudule imports
-from finops import auto_start
-from finops import auto_stop
-from finops import auto_stop_only_one_instance
-from finops import cost_check
-from finops import stop_dev_servers
-from finops import inventory_summary
-from finops import start_dev_server
-from finops import finops_logic
+from src.finops import auto_start
+from src.finops import auto_stop
+from src.finops import auto_stop_only_one_instance
+from src.finops import cost_check
+from src.finops import stop_dev_servers
+from src.finops import inventory_summary
+from src.finops import start_dev_server
+from src.finops import finops_logic
 #3. Security module imports
-from security import security_group_checker
+from src.security import security_group_checker
 
 def setup_logging():
     """
